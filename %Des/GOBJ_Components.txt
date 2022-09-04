@@ -1,0 +1,85 @@
+
+
+	    * ПУПЕР ТАНКИ 3000 *
+	* ПРОЕКТИРОВКА РАЗДЕЛА "GOBJ"
+	
+
+		СЕКЦИЯ "Components" *
+		
+		
+			ПОД-СЕКЦИЯ "Properties"
+	Класс "GameObjectGoToProperties"
+...
+
+
+	Класс "CharacterProperties
+...
+
+
+	Класс GunProperties
+Описание класса: Свойства конкретного вида оружия
+Члены класса:
+	+ projectileKind : STR - вид снаряда, который надо выпустить.
+	+ rotatingVelocityRad - с какой скоростью в рад./ сек. пушка поворачивается.
+	+ recoilingTimeSec - время на отдачу.
+	+ returningTimeSec - время на возврат от отдачи.
+	+ cooldownTimeSec - время перезарядки.
+
+
+
+			ПОД-СЕКЦИЯ "GameObject"
+
+	Класс "GoToGameObjectBehavior"
+	(Наследует: "GameObjectComponent")
+Описание класса: Расширение, реализующее базовую возможность плавного перехода к целевой точке. См.подробнее класс GameObject.
+Члены класса:
+	+ goTo( targetPoint, properties )
+	+ rotateTo( targetPoint, properties )
+	+ cancelGoTo()
+	
+	+ goToState:INT()
+	+ isCancelledNow:BOOL() - вспомогательное состояние текущего момента, про то, что сейчас движение прекращено с отменой. После след. обновления сбрасывается.
+	+ isStoppedNow:BOOL() - вспомогательное состояние текущего момента, о том, что сейчас движение прекращено. После след.обновления сбрасывается.
+
+
+
+
+		ПОД-СЕКЦИЯ "Character"
+
+	Класс "<x>CharacterDrawer"
+	(Наследует: "GameObjectComponent")
+Описание класса: Различные классы отрисовки персонажа.
+Варианты: TankCharacterDrawer, CarCharacterDrawer ...
+
+ 
+	Класс "GunCharacterBehavior"
+	(Наследует: "GameObjectComponent")
+Описание класса: выполняет поэтапный выпуск снарядов.
+Этапы работы: 0) момент выпуска снаряда (projectile) 1) отдача (recoiling); 2) возвращение (returning); 3) восстановление (cooldown).
+Члены класса:
+	+ new( projectileKind )
+	+ rotationRad()/setRotationRad(value) - поворот пушки, в направлении которого снаряд будет выпущен.
+	+ properties : GunProperties()
+	
+	+ strike:BOOL() - запустить этапы выпуска снаряда. Пока не пройден последний этап, действие безполезно и возвр.  ложь. Когда можно уже выстреливать - производит 1 шт. снаряда в своём  направлении, запускает все этапы и возвращает истину.
+	+ strikingState:INT() - на каком этапе выстреливания пушка сейчас находится. См. константы.
+	
+	+@ GUN_STRIKINGSTATE_NONE - выстрел не производится.
+	+@ GUN_STRIKINGSTATE_PROJECTILE - событие на 1 момент, когда снаряд создан и запущен.
+	+@ GUN_STRIKINGSTATE_RECOILING - быстрый момент, когда пушка стреляет и производит отдачу
+	+@ GUN_STRIKINGSTATE_RETURNING - быстрое возвращение после отдачи, в нормальное состояние.
+	+@ GUN_STRIKINGSTATE_COOLDOWN - время, когда выстрелы производить нельзя.
+	
+
+		ПОД-СЕКЦИЯ "PlayerCharacter"
+
+	Класс "ControlPCBehavior"
+	(Наследует: "GameObjectComponent")
+Описание класса: управление персонажем игрока посредством обработки ввода от этого игрока.
+
+
+
+
+
+
+

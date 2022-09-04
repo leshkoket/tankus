@@ -1,0 +1,54 @@
+
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+Project("{9344BDBB-3E7F-41FC-A0DD-8665D75EE146}") = "HelloHtmlGame", "HelloHtmlGame.mdproj", "{68C74681-5E9C-4732-8F97-561322E0FB18}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Default|Any CPU = Default|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{68C74681-5E9C-4732-8F97-561322E0FB18}.Default|Any CPU.ActiveCfg = Default|Any CPU
+		{68C74681-5E9C-4732-8F97-561322E0FB18}.Default|Any CPU.Build.0 = Default|Any CPU
+	EndGlobalSection
+	GlobalSection(MonoDevelopProperties) = preSolution
+		Policies = $0
+		$0.TextStylePolicy = $1
+		$1.FileWidth = 80
+		$1.TabWidth = 2
+		$1.IndentWidth = 2
+		$1.RemoveTrailingWhitespace = False
+		$1.scope = application/javascript
+		$0.TextStylePolicy = $2
+		$2.FileWidth = 80
+		$2.TabWidth = 2
+		$2.IndentWidth = 2
+		$2.RemoveTrailingWhitespace = False
+		$2.scope = text/html
+		$0.TextStylePolicy = $3
+		$3.FileWidth = 80
+		$3.scope = text/plain
+		$3.RemoveTrailingWhitespace = False
+		$0.DotNetNamingPolicy = $4
+		$4.DirectoryNamespaceAssociation = PrefixedHierarchical
+		$0.TextStylePolicy = $5
+		$5.TabsToSpaces = True
+		$5.NoTabsAfterNonTabs = True
+		$5.scope = text/x-fsharp
+		$0.FSharpFormattingPolicy = $6
+		$6.DefaultFormat = $7
+		$7.IndentOnTryWith = False
+		$7.ReorderOpenDeclaration = False
+		$7.SpaceAfterComma = True
+		$7.SpaceAfterSemicolon = True
+		$7.SpaceAroundDelimiter = True
+		$7.SpaceBeforeArgument = True
+		$7.SpaceBeforeColon = True
+		$7.__added = 0
+		$6.scope = text/x-fsharp
+		$0.TextStylePolicy = $8
+		$8.FileWidth = 80
+		$8.RemoveTrailingWhitespace = False
+		$8.scope = text/css
+	EndGlobalSection
+EndGlobal

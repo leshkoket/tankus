@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Default</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ItemType>GenericProject</ItemType>
+    <ProjectGuid>{68C74681-5E9C-4732-8F97-561322E0FB18}</ProjectGuid>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Default|AnyCPU' ">
+    <OutputPath>.\</OutputPath>
+  </PropertyGroup>
+  <ItemGroup>
+    <None Include="Index.html" />
+    <None Include="Styles.css" />
+    <None Include="Scripts\GINTF\GameTime.js" />
+    <None Include="Scripts\GINTF\GameInterface.js" />
+    <None Include="Scripts\GINTF\GameResourcesInterface.js" />
+    <None Include="Scripts\GEOM\Geom.js" />
+    <None Include="Scripts\GEOM\Point.js" />
+    <None Include="Scripts\GEOM\Shape.js" />
+    <None Include="Scripts\GOBJ\Character.js" />
+    <None Include="Scripts\GOBJ\Land.js" />
+    <None Include="Scripts\GOBJ\PlayerCharacter.js" />
+    <None Include="Scripts\GCTRL\GameController.js" />
+    <None Include="Scripts\GRESLD\GameResourcesLoader.js" />
+    <None Include="Scripts\ThirdParty\mocha.js" />
+    <None Include="Scripts\ThirdParty\chai.js" />
+    <None Include="GameRunner.js" />
+    <None Include="Scripts\GINTF\GameLevelInterface.js" />
+    <None Include="Scripts\GCTRL\GameLevel.js" />
+    <None Include="Scripts\_TST\_FakeGame.js" />
+    <None Include="Scripts\_TST\_TestsOfFakeGame.js" />
+    <None Include="Scripts\_TST\_FakeGameObject.js" />
+    <None Include="Scripts\_TST\_T.GCTRL\_TestsOfGameLevel.js" />
+    <None Include="Scripts\_TST\_T.GINTF\_TestsOfGameTime.js" />
+    <None Include="Scripts\_TST\_T.GEOM\_TestsOfGeom.js" />
+    <None Include="Scripts\_TST\_T.GEOM\_TestsOfPoint.js" />
+    <None Include="Scripts\_TST\_T.GOBJ\_TestsOfGameObject.js" />
+    <None Include="Scripts\_TST\_T.GCTRL\_TestsOfGameController.js" />
+    <None Include="Scripts\_TST\_T.GOBJ\_TestsOfGOComponent.js" />
+    <None Include="Scripts\_TST\_FakeComponent.js" />
+    <None Include="Scripts\GINTF\CameraInterface.js" />
+    <None Include="Scripts\_TST\_T.GCTRL\_TestsOfCamera.js" />
+    <None Include="Scripts\GCTRL\Camera.js" />
+    <None Include="Scripts\_TST\_T.GOBJ\_TestsOfMaze.js" />
+    <None Include="Scripts\GOBJ\Maze.js" />
+    <None Include="Scripts\_TST\_T.GOBJ\_TestsOfMazeGenerator.js" />
+    <None Include="Scripts\GOBJ\MazeGenerator.js" />
+    <None Include="Scripts\_TST\_FakeMazeGenerator.js" />
+    <None Include="Scripts\_TST\_T.GOBJ\_TestsOfPlayerCharacter.js" />
+    <None Include="Scripts\_TST\_T.GOBJ\_TestsOfMazePath.js" />
+    <None Include="Scripts\GOBJ\MazePath.js" />
+    <None Include="Scripts\GOBJ\MazePathFinder.js" />
+    <None Include="Scripts\_TST\_T.GOBJ\_TestsOfMazePathFinder.js" />
+    <None Include="_Experiments\_ArrayExp.html" />
+    <None Include="Scripts\GOBJ\Base\GameObject.js" />
+    <None Include="Scripts\GOBJ\Base\GameObjectComponent.js" />
+    <None Include="Scripts\GOBJ\Base\GameObjectGoToComponent.js" />
+    <None Include="Scripts\_TST\_T.GCTRL\_TestsOfFakeGame.js" />
+    <None Include="Scripts\GOBJ\x.js" />
+    <None Include="x.js" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Scripts\GINTF\" />
+    <Folder Include="Scripts\GEOM\" />
+    <Folder Include="Scripts\GOBJ\" />
+    <Folder Include="Scripts\GCTRL\" />
+    <Folder Include="Scripts\GRESLD\" />
+    <Folder Include="Scripts\_TST\" />
+    <Folder Include="Scripts\_TST\_T.GCTRL\" />
+    <Folder Include="Scripts\_TST\_T.GINTF\" />
+    <Folder Include="Scripts\_TST\_T.GEOM\" />
+    <Folder Include="Scripts\_TST\_T.GOBJ\" />
+    <Folder Include="_Experiments\" />
+    <Folder Include="Scripts\GOBJ\Base\" />
+  </ItemGroup>
+  <ProjectExtensions>
+    <MonoDevelop>
+      <Properties>
+        <Policies>
+          <TextStylePolicy TabsToSpaces="False" NoTabsAfterNonTabs="False" EolMarker="Native" FileWidth="80" TabWidth="2" IndentWidth="2" RemoveTrailingWhitespace="False" scope="text/html" />
+          <TextStylePolicy TabWidth="4" TabsToSpaces="False" IndentWidth="4" RemoveTrailingWhitespace="True" NoTabsAfterNonTabs="False" EolMarker="Native" FileWidth="80" scope="text/css" />
+          <TextStylePolicy TabsToSpaces="False" NoTabsAfterNonTabs="False" EolMarker="Native" FileWidth="80" TabWidth="2" IndentWidth="2" RemoveTrailingWhitespace="False" scope="application/javascript" />
+          <TextStylePolicy TabWidth="4" IndentWidth="4" RemoveTrailingWhitespace="True" NoTabsAfterNonTabs="False" EolMarker="Native" FileWidth="80" TabsToSpaces="True" scope="text/plain" />
+          <DotNetNamingPolicy ResourceNamePolicy="FileFormatDefault" DirectoryNamespaceAssociation="PrefixedHierarchical" />
+          <TextStylePolicy FileWidth="120" TabWidth="4" IndentWidth="4" RemoveTrailingWhitespace="True" EolMarker="Native" TabsToSpaces="True" NoTabsAfterNonTabs="True" scope="text/x-fsharp" />
+          <FSharpFormattingPolicy scope="text/x-fsharp">
+            <DefaultFormat IndentOnTryWith="False" ReorderOpenDeclaration="False" SpaceAfterComma="True" SpaceAfterSemicolon="True" SpaceAroundDelimiter="True" SpaceBeforeArgument="True" SpaceBeforeColon="True" __added="0" />
+          </FSharpFormattingPolicy>
+          <CSharpFormattingPolicy IndentBlock="True" IndentBraces="False" LabelPositioning="OneLess" NewLineForElse="True" NewLineForCatch="True" NewLineForFinally="True" SpacingAfterMethodDeclarationName="False" SpaceBetweenEmptyMethodDeclarationParentheses="False" SpaceAfterMethodCallName="False" SpaceWithinMethodCallParentheses="False" SpaceBetweenEmptyMethodCallParentheses="False" SpaceWithinExpressionParentheses="False" SpaceWithinCastParentheses="False" SpaceAfterCast="False" SpacesIgnoreAroundVariableDeclaration="False" SpaceBeforeOpenSquareBracket="False" SpaceBetweenEmptySquareBrackets="False" SpaceWithinSquareBrackets="False" SpaceAfterColonInBaseTypeDeclaration="True" SpaceAfterComma="True" SpaceAfterDot="False" SpaceAfterSemicolonsInForStatement="True" SpaceBeforeColonInBaseTypeDeclaration="True" SpaceBeforeComma="False" SpaceBeforeDot="False" SpaceBeforeSemicolonsInForStatement="False" SpacingAroundBinaryOperator="Single" WrappingPreserveSingleLine="True" WrappingKeepStatementsOnSingleLine="True" PlaceSystemDirectiveFirst="True" IndentSwitchSection="False" IndentSwitchCaseSection="False" NewLinesForBracesInTypes="False" NewLinesForBracesInMethods="False" NewLinesForBracesInProperties="False" NewLinesForBracesInAccessors="False" NewLinesForBracesInAnonymousMethods="False" NewLinesForBracesInControlBlocks="False" NewLinesForBracesInAnonymousTypes="False" NewLinesForBracesInObjectCollectionArrayInitializers="False" NewLinesForBracesInLambdaExpressionBody="False" NewLineForMembersInObjectInit="False" NewLineForMembersInAnonymousTypes="False" NewLineForClausesInQuery="False" SpaceWithinMethodDeclarationParenthesis="True" SpaceAfterControlFlowStatementKeyword="False" SpaceWithinOtherParentheses="True" scope="text/x-csharp" />
+          <TextStylePolicy TabsToSpaces="False" NoTabsAfterNonTabs="False" EolMarker="Native" FileWidth="80" TabWidth="2" IndentWidth="2" RemoveTrailingWhitespace="False" scope="text/x-csharp" />
+        </Policies>
+      </Properties>
+    </MonoDevelop>
+  </ProjectExtensions>
+</Project>

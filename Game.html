@@ -1,0 +1,36 @@
+
+<!DOCTYPE HTML>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<link rel="stylesheet" href="Styles.css">
+		
+		<title>PU TA 3000</title>
+		
+		<div class="header" id="headerContainer1">
+			<div class="header" id="header1">
+			</div>
+		</div>
+		
+		<script src="Scripts/ThirdParty/mocha.js"></script>
+		<script src="Scripts/ThirdParty/chai2.js"></script>
+		<script src="GameRunner.js"></script>
+		<script>
+			GameRunner.run( true );
+		</script>
+	</head>
+	
+	
+	<body>
+		<p>
+		<table id="gameStatusBar" class="gameInfo">
+			<td id="gameStatusBar_time" class="gameInfoDiv">#</td>
+			<td id="gameStatusBar_events" class="gameInfoDiv">?</td>
+    </table>
+		
+		<canvas width=400 height=300 id="graphics" isContentEditable=true></canvas>
+		<canvas id="testGraphics" hidden=true></canvas>
+		
+		<div id="mocha" hidden=true onclick="if(event.button == 3) hidden=true"></div>
+	</body>
+</html>

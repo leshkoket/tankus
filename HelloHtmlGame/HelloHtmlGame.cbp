@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6" />
+	<Project>
+		<Option title="HelloHtmlGame" />
+		<Option pch_mode="2" />
+		<Option compiler="null" />
+		<Build>
+			<Target title="Release">
+				<Option output="bin/Release/HelloHtmlGame" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Release/" />
+				<Option type="1" />
+				<Option compiler="null" />
+			</Target>
+		</Build>
+		<Unit filename="../GameRunner.js" />
+		<Unit filename="../Index.html" />
+		<Unit filename="../Scripts/GCTRL/Camera.js" />
+		<Unit filename="../Scripts/GCTRL/GameController.js" />
+		<Unit filename="../Scripts/GCTRL/GameLevel.js" />
+		<Unit filename="../Scripts/GEOM/Geom (копировать).js" />
+		<Unit filename="../Scripts/GEOM/Geom.js" />
+		<Unit filename="../Scripts/GEOM/Point (копировать).js" />
+		<Unit filename="../Scripts/GEOM/Point.js" />
+		<Unit filename="../Scripts/GEOM/Shape.js" />
+		<Unit filename="../Scripts/GEOM/_TestsOfShape.js" />
+		<Unit filename="../Scripts/GINTF/CameraInterface.js" />
+		<Unit filename="../Scripts/GINTF/GameInterface.js" />
+		<Unit filename="../Scripts/GINTF/GameLevelInterface.js" />
+		<Unit filename="../Scripts/GINTF/GameResourcesInterface.js" />
+		<Unit filename="../Scripts/GINTF/GameTime.js" />
+		<Unit filename="../Scripts/GOBJ/Base/GameObject.js" />
+		<Unit filename="../Scripts/GOBJ/Base/GameObjectComponent.js" />
+		<Unit filename="../Scripts/GOBJ/Base/GameObjectGoToComponent.js" />
+		<Unit filename="../Scripts/GOBJ/Character.js" />
+		<Unit filename="../Scripts/GOBJ/Land.js" />
+		<Unit filename="../Scripts/GOBJ/Maze.js" />
+		<Unit filename="../Scripts/GOBJ/MazeGenerator.js" />
+		<Unit filename="../Scripts/GOBJ/MazePath.js" />
+		<Unit filename="../Scripts/GOBJ/MazePathFinder.js" />
+		<Unit filename="../Scripts/GOBJ/PlayerCharacter.js" />
+		<Unit filename="../Scripts/GOBJ/x.js" />
+		<Unit filename="../Scripts/GRESLD/GameResourcesLoader.js" />
+		<Unit filename="../Scripts/GRESLD/ImagesStorage.js" />
+		<Unit filename="../Scripts/ThirdParty/chai.js" />
+		<Unit filename="../Scripts/ThirdParty/chai2.js" />
+		<Unit filename="../Scripts/ThirdParty/mocha.js" />
+		<Unit filename="../Scripts/_TST/_FakeComponent.js" />
+		<Unit filename="../Scripts/_TST/_FakeGame.js" />
+		<Unit filename="../Scripts/_TST/_FakeGameObject.js" />
+		<Unit filename="../Scripts/_TST/_FakeMazeGenerator.js" />
+		<Unit filename="../Scripts/_TST/_FakeMazePathFinder.js" />
+		<Unit filename="../Scripts/_TST/_T.GCTRL/_TestsOfCamera.js" />
+		<Unit filename="../Scripts/_TST/_T.GCTRL/_TestsOfFakeGame.js" />
+		<Unit filename="../Scripts/_TST/_T.GCTRL/_TestsOfGameController.js" />
+		<Unit filename="../Scripts/_TST/_T.GCTRL/_TestsOfGameLevel.js" />
+		<Unit filename="../Scripts/_TST/_T.GEOM/_TestsOfGeom.js" />
+		<Unit filename="../Scripts/_TST/_T.GEOM/_TestsOfPoint.js" />
+		<Unit filename="../Scripts/_TST/_T.GINTF/_TestsOfGameTime.js" />
+		<Unit filename="../Scripts/_TST/_T.GOBJ/_TestsOfCharacter.js" />
+		<Unit filename="../Scripts/_TST/_T.GOBJ/_TestsOfGOComponent.js" />
+		<Unit filename="../Scripts/_TST/_T.GOBJ/_TestsOfGameObject.js" />
+		<Unit filename="../Scripts/_TST/_T.GOBJ/_TestsOfMaze.js" />
+		<Unit filename="../Scripts/_TST/_T.GOBJ/_TestsOfMazeGenerator.js" />
+		<Unit filename="../Scripts/_TST/_T.GOBJ/_TestsOfMazePath.js" />
+		<Unit filename="../Scripts/_TST/_T.GOBJ/_TestsOfMazePathFinder.js" />
+		<Unit filename="../Scripts/_TST/_T.GOBJ/_TestsOfPlayerCharacter.js" />
+		<Unit filename="../Scripts/_TST/_TestsOfFakeGame.js" />
+		<Unit filename="../Styles.css" />
+		<Extensions />
+	</Project>
+</CodeBlocks_project_file>

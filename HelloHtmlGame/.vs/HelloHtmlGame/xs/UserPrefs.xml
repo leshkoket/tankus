@@ -1,0 +1,21 @@
+﻿<Properties StartupConfiguration="{68C74681-5E9C-4732-8F97-561322E0FB18}|Default">
+  <MonoDevelop.Ide.Workbench ActiveDocument="../Styles.css">
+    <Files>
+      <File FileName="../Styles.css" Line="31" Column="18" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="HelloHtmlGame" expanded="True" />
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Default" />
+  <MonoDevelop.Ide.ItemProperties.HelloHtmlGame PreferredExecutionTarget="MonoDevelop.Default" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MultiItemStartupConfigurations />
+</Properties>

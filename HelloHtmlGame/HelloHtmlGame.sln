@@ -1,0 +1,14 @@
+
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+Project("{9344BDBB-3E7F-41FC-A0DD-8665D75EE146}") = "HelloHtmlGame", "HelloHtmlGame.mdproj", "{68C74681-5E9C-4732-8F97-561322E0FB18}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Default|Any CPU = Default|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{68C74681-5E9C-4732-8F97-561322E0FB18}.Default|Any CPU.ActiveCfg = Default|Any CPU
+		{68C74681-5E9C-4732-8F97-561322E0FB18}.Default|Any CPU.Build.0 = Default|Any CPU
+	EndGlobalSection
+EndGlobal
